@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    page-break-after: 0;
+}
+@font-face {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+src:url(../fonts/font-family) ;
+}
+
+body{
+    color: teal;
+}
+main{
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+background-color: mediumblue;
+display:flex;
+flex-wrap: wrap;
+}
+div {
+    width: calc(50% - 40px);
+    height: 400px;
+    margin: 20px;
+    background-color:navy;
+    transition: all 0.4s ease;
+    border-radius:  10px;
+}
+h1{
+    width: 100%;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.item1{
+    background-image: url(./img/1.jpg);
+    background-size: cover;
+}
+.item2{
+    background-image: url(./img/1.png);
+    background-size : cover;
+}
+.item3{
+    background-image: url(./img/2.jpg);
+    background-size: cover;
+}
+.item4{
+    background-image: url(./img/3.jpg);
+    background-size: cover;
+}
+.item5{
+    background-image: url(./img/4.jpg);
+    background-size: cover;
+}
+.item6{
+    background-image: url(./img/5.jpg);
+    background-size: cover;
+}
+.item7{
+    background-image: url(./img/6.jpg);
+    background-size: cover;
+}
+.item8{
+    background-image: url(./img/7.jpg);
+    background-size: cover;
+}
+.item9{
+    background-image: url(./img/8.jpg);
+    background-size: cover;
+}
+.item10{
+    background-image: url(./img/9.jpg);
+    background-size: cover;
+}
+.item11{
+    background-image: url(./img/10.jpg);
+    background-size: cover;
+}
+.item:hover {
+    transform: scale(1.1);
+}
